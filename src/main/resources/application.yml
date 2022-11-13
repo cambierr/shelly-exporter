@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: shelly-exporter
+netty:
+  default:
+    allocator:
+      max-order: 3
+jackson:
+  property-naming-strategy: SNAKE_CASE
